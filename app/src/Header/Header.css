@@ -1,0 +1,36 @@
+header {
+  width: 100%;
+  height: 10vh;
+  border-bottom: 0.1rem solid #ffffff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+.header-logo {
+  font-size: 2rem;
+}
+
+.header-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.header-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.header-links li {
+  list-style-type: none;
+  padding: 0.5rem 1rem;
+  margin: 0 1rem;
+  border: 0.1rem solid #ffffff;
+  border-radius: 0.7rem;
+}

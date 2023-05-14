@@ -1,0 +1,36 @@
+footer {
+  width: 100%;
+  height: 10vh;
+  /* background: #000000; */
+  border-top: 0.1rem solid #ffffff;
+
+}
+
+.footer {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-logo {
+  font-size: 1.5rem;
+}
+
+.footer-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer-links li {
+  list-style-type: none;
+  padding: 0 1rem;
+}
