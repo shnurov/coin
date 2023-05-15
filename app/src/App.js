@@ -3,17 +3,21 @@ import './App.css';
 
 import Header from './Header/Header'
 import Footer from './Footer/Footer'
-import Main from './Main/Main'
+import Rate from './Rate/Rate'
 
 class App extends React.Component {
-  constructor(props) {
-    super(props);
-  }
+  // constructor(props) {
+  //   super(props);
+  // }
   render() {
     return (
       <div className="site">
         <Header />
-        <Main />
+        <main>
+      <article>
+        <Rate />
+      </article>
+        </main>
         <Footer />
       </div>
     );
