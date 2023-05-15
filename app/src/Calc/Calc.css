@@ -1,3 +1,9 @@
+.calc {
+  border: 0.1rem solid #ffffff;
+  border-radius: 1rem;
+  padding-bottom: 1rem;
+}
+
 .calc-form {
   text-align: center;
 }
@@ -23,4 +29,5 @@ input {
 
 .calc-res li {
   font-size: 2rem;
+  list-style-type: none;
 }

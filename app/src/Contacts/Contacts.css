@@ -1,0 +1,26 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  padding-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contacts iframe {
+  margin: 0 auto;
+}
+
+.contacts-map iframe {
+  width: 100%;
+}
+
+.contacts p{
+  font-size: 1.8rem;
+}
+
+.contacts h3{
+  font-size: 2rem;
+  text-align: center;
+}
+

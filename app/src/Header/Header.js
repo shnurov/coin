@@ -13,8 +13,8 @@ class Header extends React.Component {
           <nav className='header-nav'>
             <ul className='header-links'>
               <li><a href="/">Главная</a></li>
-              <li><a href="/">Пунткы</a></li>
-              <li><a href="/">Контакты</a></li>
+              <li><a href="/about">О нас</a></li>
+              <li><a href="/contacts">Контакты</a></li>
             </ul>
           </nav>
         </div>
