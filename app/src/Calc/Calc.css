@@ -1,0 +1,26 @@
+.calc-form {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 1rem;
+}
+
+input {
+  max-width: 11rem;
+}
+
+.calc-form input,select{
+  font-size: 1.8rem;
+}
+
+.calc-res ul {
+  text-align: center;
+}
+
+.calc-res li {
+  font-size: 2rem;
+}

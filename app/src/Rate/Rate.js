@@ -1,13 +1,12 @@
 import React from 'react'
 import './Rate.css';
+import Calc from '../Calc/Calc';
 
 class Rate extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       'data': '',
-      'rub': '',
-      'kzt': '',
       'currencyRate': {}
     }
     this.getRate();
@@ -23,7 +22,7 @@ class Rate extends React.Component {
   // }
   getRate = () => {
     var myHeaders = new Headers();
-    myHeaders.append("apikey", "111");
+    myHeaders.append("apikey", "K4RCrC0uRt3b9xSQzAr83Zneri9JimW0");
 
     var requestOptions = {
       method: 'GET',
@@ -31,7 +30,7 @@ class Rate extends React.Component {
       headers: myHeaders
     };
 
-    fetch("https://api.apilayer.com/exchangerates_data/latest?symbols=RUB%2CKZT%2CUSD&base=EUR", requestOptions)
+    fetch("https://api.apilayer.com/exchangerates_data/latest?symbols=RUB%2CKZT%2CGEL%2CUSD&base=EUR", requestOptions)
       .then(response => response.json())
       .then(data => {
         console.log(data);
@@ -58,6 +57,7 @@ class Rate extends React.Component {
           )
           )}
         </div>
+        <Calc rate={this.state.currencyRate}/>
       </section>
     );
   }

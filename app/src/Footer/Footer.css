@@ -26,8 +26,7 @@ footer {
 
 .footer-links {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
 }
 
 .footer-links li {
